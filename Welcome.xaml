@@ -1,0 +1,38 @@
+﻿<Window x:Class="Ari_Player.Welcome"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ari_Player"
+        mc:Ignorable="d"
+        Title="Bienvenido a Ari Player"
+        Height="500"
+        Width="500"
+        WindowStyle="ThreeDBorderWindow"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
+
+
+    <Grid>
+        <Button Style="{DynamicResource AccentButtonStyle}" Content="Vamos" HorizontalAlignment="Center" Click="Settings_click" Margin="0,395,0,0"/>
+        <TextBlock 
+    TextAlignment="Center" 
+    HorizontalAlignment="Center" 
+    VerticalAlignment="Center"
+    TextWrapping="Wrap"
+    
+    >
+    
+    <Run Text="Bienvenido a Ari Player, Ari Player es un reproductor de música." />
+    <LineBreak />
+    <Run Text="Es un proyecto de código abierto impulsado por .NET 9 y NAudio." />
+    <LineBreak />
+    <Run Text="En la siguiente ventana configurarás tu carpeta de música." />
+        </TextBlock>
+
+
+
+
+
+    </Grid>
+</Window>
