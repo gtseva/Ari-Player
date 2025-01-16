@@ -1,6 +1,7 @@
 ﻿using System.IO;
 using System.Windows;
 using System.Windows.Media.Imaging;
+using AriPlayer;
 
 namespace Ari_Player
 {
@@ -14,8 +15,8 @@ namespace Ari_Player
 
         private void Settings_click(object sender, RoutedEventArgs e)
         {
-            Settings settingsWindow = new Settings();
-            settingsWindow.Show();
+            Player playerWindow = new Player();
+            playerWindow.Show();
             this.Close();
         }
 

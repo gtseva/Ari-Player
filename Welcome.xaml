@@ -27,7 +27,9 @@
     <LineBreak />
     <Run Text="Es un proyecto de código abierto impulsado por .NET 9 y NAudio." />
     <LineBreak />
-    <Run Text="En la siguiente ventana configurarás tu carpeta de música." />
+    <Run Text="En la siguiente ventana encontraras el reproductor, selecciona" />
+    <LineBreak></LineBreak>
+    <Run Text="la carpeta que contiene la musica y disfruta..."></Run>
         </TextBlock>
 
 
